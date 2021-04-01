@@ -10,19 +10,31 @@ body{
     transition: box-shadow 0.5s ease;
 }
 
-button{
-    color: #ffff00;
-}
-
-.nav-item{
+.navbar-dark{
     color: #ffff00;
     font-size: large;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.nav-item:hover{
+.nav-link{
+    color: #ffff00;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-link:hover{
     color: #9600E8;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #ffff00;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .fa{
