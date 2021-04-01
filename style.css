@@ -1,13 +1,13 @@
 body{
     background-color: #000000;
     color: #ffffff;
+    padding-top: 80px;
 }
 
 .navbar{
     background-color: #000000;
     box-shadow: 0 1px 10px 0 #ffff00;
     opacity: 0.9;
-    transition: box-shadow 0.5s ease;
 }
 
 .nav-link{
@@ -22,12 +22,7 @@ body{
 }
 
 .custom-toggler.navbar-toggler {
-    border-color: #ffff00;
-}
-
-.custom-toggler .navbar-toggler-icon {
-    background-image: url(
-    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    opacity: 1.0;
 }
 
 .fa{
@@ -39,11 +34,16 @@ body{
     color: #9600E8;
 }
 
+.fa-bars{
+    color: #ffff00;
+    font-size: 28px;
+}
+
 .padding{
     padding-top: 50px;
-    padding-right: 0px;
+    padding-right: 10px;
     padding-left: 50px;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 
 .footer{
@@ -63,4 +63,8 @@ body{
 
 .about{
     text-align: justify;
+}
+
+.header{
+    text-align: center;
 }

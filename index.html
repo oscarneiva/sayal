@@ -18,140 +18,149 @@
     </head>
     <body>
 
-    <!-- navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img class="nav-item" src="./img/logo.png" width="80">
-            </a>
-            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <!-- navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="nav-item" src="./img/logo.png" width="80">
+                </a>
+                <button class="navbar-toggler ml-auto custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fa fa-bars"></i>
+                        </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="#tour">Tour</a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="#videos">Videos</a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="#follow">Follow</a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="#">Store</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <!--div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/band-carousel.png" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/logo-carousel.png" class="d-block w-100">
+                </div>
+            </div>
+            <!--button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item ms-auto mb-2">
-                        <a class="nav-link" aria-current="page" href="#about">About</a>
-                    </li>
-                    <li class="nav-item ms-auto mb-2">
-                        <a class="nav-link" href="#">Tour</a>
-                    </li>
-                    <li class="nav-item ms-auto mb-2">
-                        <a class="nav-link" href="#videos">Videos</a>
-                    </li>
-                    <li class="nav-item ms-auto mb-2">
-                        <a class="nav-link" href="#">Store</a>
-                    </li>
-                </ul>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button-->
+        </div>
 
-                <ul class="navbar-nav ms-auto mb-2">
-                    <li class="nav-item ms-auto mb-2">
-                        <a class="nav-link fa fa-instagram" href="https://www.instagram.com/sayalcrew/"></a>
-                    </li>
-                    <li class="nav-item ms-auto mb-2">
-                        <a class="nav-link fa fa-youtube" href="https://www.youtube.com/channel/UCYHRg7Ixch3wyIPdxGcvajw/"></a>
-                    </li>
-                    <li class="nav-item ms-auto mb-2">
-                        <a class="nav-link fa fa-spotify" href="#"></a>
-                    </li>
-                </ul>
+        <!-- about -->
+        <div class="container padding" id="about">
+            <div class="row">
+                <h2 class="header">About</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="about">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+                        making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
+                        obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered
+                        the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
+                        by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem
+                        Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                        <br><br>
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus
+                        Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        <br><br>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                        that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
+                        publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover
+                        many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="./img/band-about.JPG">
+                </div>
             </div>
         </div>
-    </nav>
 
-    <!-- carousel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <!--div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        </div-->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/band-carousel.png" class="d-block w-100">
+        <!-- tour -->
+        <div class="container padding" id="tour">
+            <div class="row">
+                <h2 class="header">Tour</h2>
             </div>
-            <div class="carousel-item">
-                <img src="./img/logo-carousel.png" class="d-block w-100">
+            <div class="row">
+
             </div>
         </div>
-        <!--button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button-->
-    </div>
 
-    <!-- about -->
-    <div class="container padding" id="about">
-        <div class="row">
-            <h2>About</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <p class="about">
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
-                    making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more
-                    obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered
-                    the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
-                    by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem
-                    Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                    <br><br>
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus
-                    Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-                    <br><br>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
-                    that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop
-                    publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover
-                    many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                </p>
+        <!-- videos -->
+        <div class="container padding" id="videos">
+            <div class="row">
+                <h2 class="header">Videos</h2>
             </div>
-            <div class="col-md-6">
-                <img class="img-fluid" src="./img/band-about.JPG">
+            <div class="row">
+                <div class="col-md">
+                    <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/J6fMJsHhpjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-md">
+                    <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/tE1RSWsbXvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-md">
+                    <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/nM8eBwIct3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- tour -->
-    
-
-    <!-- videos -->
-    <div class="container padding" id="videos">
-        <div class="row">
-            <h2>Videos</h2>
+        <!-- social media nav -->
+        <div class="container padding" id="follow">
+            <div class="row">
+                <h2 class="header">Follow</h2>
+            </div>
+            <nav class="nav justify-content-center">
+                <a class="nav-link fa fa-instagram" href="https://www.instagram.com/sayalcrew/"></a>
+                <a class="nav-link fa fa-youtube" href="https://www.youtube.com/channel/UCYHRg7Ixch3wyIPdxGcvajw/"></a>
+                <a class="nav-link fa fa-spotify" href="#"></a>
+            </nav>
         </div>
-        <div class="row">
-            <div class="col-md">
-                <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/J6fMJsHhpjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-            </div>
-            <div class="col-md">
-                <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/tE1RSWsbXvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col-md">
-                <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/nM8eBwIct3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+
+
+        <!-- footer -->
+        <div class="container footer padding">
+            <a class="footer" href="http://oscarneiva.com/">© 2021 - SAYAL - Website Designed & Developed by Oscar Neiva</a>
         </div>
-    </div>
 
-    <!-- social media nav -->
-    <nav class="nav justify-content-center padding">
-        <a class="nav-link fa fa-instagram" href="https://www.instagram.com/sayalcrew/"></a>
-        <a class="nav-link fa fa-youtube" href="https://www.youtube.com/channel/UCYHRg7Ixch3wyIPdxGcvajw/"></a>
-        <a class="nav-link fa fa-spotify" href="#"></a>
-    </nav>
+        <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+        -->
 
-    <!-- footer -->
-    <div class="container footer padding">
-        <a class="footer" href="http://oscarneiva.com/">© 2021 - SAYAL - Website Designed & Developed by Oscar Neiva</a>
-    </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
-    -->
+        <!-- Internal script -->
+        <script src="script.js"></script>
     </body>
 </html>
