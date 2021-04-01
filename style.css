@@ -1,6 +1,6 @@
 body{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #141414;
+    color: #F3F3F3;
     padding-top: 80px;
 }
 
@@ -75,8 +75,8 @@ body{
 }
 
 .list-group-item{
-    background: #000000;
-    color: #ffffff;
+    background: #141414;
+    color: #F3F3F3;
     padding-top: 20px;
     padding-right: 0px;
     padding-left: 0px;
@@ -84,8 +84,8 @@ body{
 }
 
 .list-group-item:hover{
-    background: #000000;
-    color: #ffffff;
+    background: #141414;
+    color: #F3F3F3;
 }
 
 .btn-tickets{
