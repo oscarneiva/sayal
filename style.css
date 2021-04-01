@@ -10,13 +10,6 @@ body{
     transition: box-shadow 0.5s ease;
 }
 
-.navbar-dark{
-    color: #ffff00;
-    font-size: large;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
 .nav-link{
     color: #ffff00;
     font-size: large;
