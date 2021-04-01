@@ -5,6 +5,7 @@ body{
 .navbar{
     background-color: #000000;
     box-shadow: 0 1px 10px 0 rgba(255,255,0);
+    opacity: 0.9;
 }
 button{
     color: #ffff00;
@@ -12,6 +13,8 @@ button{
 .nav-item{
     color: #ffff00;
     font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .nav-item:hover{
     color: #9600E8;
