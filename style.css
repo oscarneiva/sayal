@@ -1,24 +1,24 @@
 body{
-    background-color: #141414;
-    color: #F3F3F3;
+    background-color: #ffffff;
+    color: #292d2d;
     padding-top: 80px;
 }
 
 .navbar{
-    background-color: #000000;
-    box-shadow: 0 1px 10px 0 #ffff00;
-    opacity: 0.9;
+    background-color: #ffffff;
+    box-shadow: 0 1px 10px 0 #292d2d;
 }
 
 .nav-link{
-    color: #ffff00;
+    color: #292d2d;
     font-size: large;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .nav-link:hover{
-    color: #9600E8;
+    color: #292d2d;
+    opacity: 0.5;
 }
 
 .custom-toggler.navbar-toggler {
@@ -26,16 +26,17 @@ body{
 }
 
 .fa{
-    color: #ffff00;
+    color: #292d2d;
     font-size: xx-large;
 }
 
 .fa:hover{
-    color: #9600E8;
+    color: #292d2d;
+    opacity: 0.5;
 }
 
 .fa-bars{
-    color: #ffff00;
+    color: #292d2d;
     font-size: 28px;
 }
 
@@ -56,14 +57,15 @@ body{
 
 
 .footer{
-    color: #ffff00;
+    color: #292d2d;
     text-align: center;
     text-decoration: none;
     font-size: small;
 }
 
 .footer:hover{
-    color: #9600E8;
+    color: #292d2d;
+    opacity: 0.5;
 }
 
 .about{
@@ -75,9 +77,9 @@ body{
 }
 
 .list-group-item{
-    background: #141414;
-    color: #F3F3F3;
-    border-color: #141414;
+    background: #ffffff;
+    color: #292d2d;
+    border-color: #ffffff;
     padding-top: 20px;
     padding-right: 0px;
     padding-left: 0px;
@@ -85,17 +87,19 @@ body{
 }
 
 .list-group-item:hover{
-    background: #141414;
-    color: #F3F3F3;
+    background: #ffffff;
+    color: #292d2d;
 }
 
 .btn-tickets{
     background: transparent;
-    color: #ffff00;
-    box-shadow: 0 1px 10px 0 #ffff00;
+    color: #292d2d;
+    box-shadow: 0 1px 10px 0 #292d2d;
 }
 
 .btn-tickets:hover{
-    color: #9600E8;
-    box-shadow: 0 1px 10px 0 #9600E8;
+    background: #292d2d;
+    color: #ffffff;
+    opacity: 0.5;
+    box-shadow: 0 1px 10px 0 #292d2d;
 }
