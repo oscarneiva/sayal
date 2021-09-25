@@ -86,20 +86,22 @@ body{
     padding-bottom: 20px;
 }
 
-.list-group-item:hover{
+/*.list-group-item:hover{
     background: #ffffff;
     color: #292d2d;
-}
+}*/
 
 .btn-tickets{
-    background: transparent;
+    background: #ffffff;
     color: #292d2d;
-    box-shadow: 0 1px 10px 0 #292d2d;
+    border-color: #292d2d;
+    /*box-shadow: 0 1px 5px 0 #292d2d;*/
 }
 
 .btn-tickets:hover{
     background: #292d2d;
     color: #ffffff;
     opacity: 0.5;
-    box-shadow: 0 1px 10px 0 #292d2d;
+    border-color: #292d2d;
+    /*box-shadow: 0 1px 1px 0 #292d2d;*/
 }
