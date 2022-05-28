@@ -54,8 +54,6 @@ body{
     padding-bottom: 15px;
 }
 
-
-
 .footer{
     color: #292d2d;
     text-align: center;
@@ -104,4 +102,14 @@ body{
     opacity: 0.5;
     border-color: #292d2d;
     /*box-shadow: 0 1px 1px 0 #292d2d;*/
+}
+
+.season-link{
+    color: #292d2d;
+    text-decoration: none;
+}
+
+.season-link:hover{
+    color: #292d2d;
+    opacity: 0.5;
 }
